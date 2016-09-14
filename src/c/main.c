@@ -25,14 +25,6 @@ static int s_battery_level;
 static Layer *s_battery_layer;
 
 /*
-Next steps:
-Comment out weather stuff (kills too much battery)
-Move date to underneath time
-Try to get bluetooth working
-Rearrange functions
-*/
-
-/*
 update_time takes no arguments
 Creates structure to hold local time and prints this time
   based on whether the clock is 24hour style or not

@@ -19,7 +19,7 @@
                 {
                     "file": "images/watchface.png",
                     "menuIcon": true,
-                    "name": "BUILT_WATCH_FACE",
+                    "name": "WATCHFACE_FINAL",
                     "targetPlatforms": null,
                     "type": "bitmap"
                 },
