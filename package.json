@@ -1,0 +1,62 @@
+{
+    "author": "Jordan Donaldson",
+    "dependencies": {},
+    "keywords": [],
+    "name": "watchface-tutorial",
+    "pebble": {
+        "capabilities": [
+            "location"
+        ],
+        "displayName": "Watchface Tutorial",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "TEMPERATURE",
+            "CONDITIONS"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/watchface.png",
+                    "menuIcon": true,
+                    "name": "BUILT_WATCH_FACE",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bt-icon.png",
+                    "name": "IMAGE_BT_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/background.png",
+                    "name": "BACKGROUND",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/Perfect DOS VGA 437.ttf",
+                    "name": "FONT_PERFECT_DOS_48",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/Perfect DOS VGA 437.ttf",
+                    "name": "FONT_PERFECT_DOS_18",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "639ac5c2-7c3b-40a4-8d76-efaa5d69fdd5",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
